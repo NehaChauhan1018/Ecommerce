@@ -1,0 +1,59 @@
+- 07/08/23
+  Designing of single product page
+- redirecting the route from products page on the click of image, title, desc, name
+  to the single product page
+- Integrated the singleProduct Api.
+- Displayed the details of singleProduct on the frontend though getSinglePorduct Api.
+- Added registered successfully success message through toaster.
+- Handled all the errors on Login and register page and displayed it in toaster.
+- Added the functionality to show the details of the user when logged in.
+- Integrated the singleUser Api.
+
+10/08/23
+-Stored authorization token on refreshing the page  using dispatch function.
+-fetched accessToken from redux and stored it through selector.
+-Integrated createUserCart Api.
+-Worked on adding single product to the cart.
+-Working on adding multiple products into the user cart.
+
+11/08/23
+
+- Integrated getAllcart Api.
+- Integrated singleUserApi to fetch the user id to be used in the getAllCart API.
+- Integrated updateUserCart Api to update the cart if needed.
+- Changed the UI of cart by adding image, description, name column to make product in cart more specific
+- Setup public and private routes(still working)
+- Refactored the cartDetail and displayed it in render method to display multiple objects of product than adding a single one.
+- worked on responsiveness of main file, blog component, picks component, instagram, footer and lower footer component. 
+
+12/08/23
+
+- Made public and private routes and added all the routes accordingly to it.
+- Added old products to the new updated products using useCart products.
+- Made custom drawer and hid it when max width is more than 900px and displayed it under 900px.
+- Fixed background image on the login page, contact page,cart page and checkout page.
+- Added success toaster in the add to cart api.
+- Changed the createCartApi to updateCart api on the requirement of table data to be shown.
+- Added invalidatetags and providesTags and tagTypes in the rtk query.
+- On the click of singleProduct when the cart is added the products are updated on its own without refresh.
+- Fixed refresh issue, added token to headers from the localstorage.
+- Redirected the singleProduct page to Loginif user has not loggedin and to cart page if getUserCart api is hit without any error. 
+
+13/08/23
+
+- Added delete icon and a separate delete column in the cart table to delete
+  a particular product.
+- Integrated deleteCartItem Api.
+- Once the cart is deleted without refreshind the browser, cart is updated with the currennt products.
+- Displayed totalPrice in the subTotal section of the cart.
+- Redirected the cart page on the click of add to cart to the checkout page.
+- Integrated totalPrice API to get the total worth of the cart.
+- Displayed the dynamic totalprice, that is once the product is added or removed, updated amount is reflected on the pages.
+- Researched on integrating the google calendar feature into  Web Application.
+- made a sample html project to see how the array of objects data is accessed in html file, 
+  still need to implement it to the project.
+
+
+
+
+
